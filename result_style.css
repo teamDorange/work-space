@@ -1,9 +1,17 @@
+/*
+.whole{
+    background-image: url(great_bg.jpeg);
+    background-size: cover;
+}
+*/
+*/
 .card{
     background-image: url(original.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center center;
 }
+*/
 /* ボーダーの太さ */
 .border-2{
     border-width:2px !important;
@@ -20,4 +28,5 @@
 .card-body{
     border-width:15px !important;
     border-color: red;
+    padding: 0.25rem !important;
 }
