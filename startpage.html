@@ -7,23 +7,30 @@
   <title>おみくじrecursion</title>
   <!---->
   <link rel="stylesheet" href="startpage.css">
+  <link rel="stylesheet" href="result_style.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <!-- fontawesome -->
   <link href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" rel="stylesheet">
  </head>
- <body>
-    <div class="vh-100 bg-grad d-flex flex-column justify-content-center align-items-center">
-        <div>
-            <h1 class="text-center"  >おみくじ</h1>
+    <body>
+        <div class="vh-100 bg-grad d-flex flex-column justify-content-center align-items-center">
+            <!--スタート画面-->
+            <div id="start_page" class="vh-100 bg-grad d-flex flex-column justify-content-center align-items-center">
+                <div>
+                    <h1 class="text-center"  >おみくじ</h1>
+                </div>
+                <div>
+                    <img src="syougatsu2_omijikuji2.png" class="text-align-items image-fluid">
+                </div>
+                <div>
+                    <button id="drawOmikuji" class="btn btn-danger btn-lg border-radious">おみくじを引く</button>
+                </div>
+            </div>
+            <!--結果画面-->
+            <div id="result_page" class="vh-100 container-fluid d-none"></div>
         </div>
-        <div>
-            <img src="syougatsu2_omijikuji2.png" class="text-align-items image-fluid">
-        </div>
-        <div>
-            <button class="btn btn-danger btn-lg border-radious">おみくじを引く</button>
-        </div>
-    </div
+    <script src="start_to_result.js"></script>
  </body>
  <!-- footer -->
  <footer class="bg-footer d-flex flex-column justify-content-center align-items-center">
