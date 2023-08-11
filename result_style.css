@@ -4,9 +4,7 @@
     background-size: cover;
 }
 */
-.back{
-    background: linear-gradient(180deg, rgb(250, 240, 240), rgb(200, 100, 100) );
-}
+
 .top{
     opacity: 0.75;
     margin-bottom: 2rem;
