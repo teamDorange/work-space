@@ -4,11 +4,11 @@ const result_set = [0,0,1,1,1,1,1,2,2,2,2,2,2,2,2,2,2,3,3,3,3,3,3,3,3,3,3,4,4,4,
 const colors = ["赤","青","黄","緑","橙","紫","白","黒","紺","金","銀"];
 const items = ["コーヒー","スイーツ","入浴剤","お花","食器","お酒","キッチン用品","アロマ","バッグ","ハンドクリーム","タオル"];
 
-const config = {
+var config = {
     start_page : document.getElementById("start_page"),
     result_page : document.getElementById("result_page"), 
 }
-const buttons ={
+var buttons ={
     draw_button : document.getElementById("drawOmikuji"),
     back_button : null,
 }
@@ -86,6 +86,7 @@ function drawButtonClickListener() {
         `;
 
         // "おみくじを引く" ボタンのイベントリスナーを再度設定
+        buttons.draw_button = document.getElementById("drawOmikuji");
         attachDrawButtonListener();
     });
 }
