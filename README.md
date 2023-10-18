@@ -30,6 +30,8 @@ HTML/CSS, JavaScript
 ![image](https://github.com/teamDorange/work-space/assets/78686862/40d2ffa9-4427-4273-9fc4-10da5004192f)
 
 おみくじの結果画面です。
+![image](https://github.com/teamDorange/work-space/assets/78686862/020cffca-76c8-42b0-8df7-efcee1c6994c)
+
 
 
 
